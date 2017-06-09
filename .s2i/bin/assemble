@@ -20,15 +20,15 @@ if [[ -f requirements.txt ]]; then
   else
     echo "---> Installing dependencies ..."
   fi
-  echo "---> Installing pipppppppppppppppppppppppp ..."
-  pip install --user -r requirements.txt --proxy=https://proxy.hca.siemens.de:8080
+  echo "---> Installing pipppppppppppppppppppppppp111 ..."
+  pip install -r requirements.txt --proxy=https://proxy.hca.siemens.de:8080
 fi
 
-echo "---> Installing pipppppppppppppppppppppppp1111111111111111 ..."
+echo "---> Installing pipppppppppppppppppppppppp1111111111111111 222..."
 
 if [[ -f setup.py ]]; then
-  echo "---> Installing application ..."
-  python setup.py develop --user
+  echo "---> Installing application11 ..."
+  python setup.py develop
 fi
 
 if should_collectstatic; then
