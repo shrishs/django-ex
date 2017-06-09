@@ -25,7 +25,7 @@ fi
 
 if [[ -f setup.py ]]; then
   echo "---> Installing application ..."
-  python setup.py develop --user
+  python setup.py develop 
 fi
 
 if should_collectstatic; then
