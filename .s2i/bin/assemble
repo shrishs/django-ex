@@ -20,7 +20,7 @@ if [[ -f requirements.txt ]]; then
   else
     echo "---> Installing dependencies ..."
   fi
-  pip install --user -r requirements.txt --proxy https://proxy.hca.siemens.com:8080
+  pip install -r requirements.txt --proxy https://proxy.hca.siemens.com:8080
 fi
 
 if [[ -f setup.py ]]; then
