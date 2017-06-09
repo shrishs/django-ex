@@ -20,8 +20,11 @@ if [[ -f requirements.txt ]]; then
   else
     echo "---> Installing dependencies ..."
   fi
+  echo "---> Installing pipppppppppppppppppppppppp ..."
   pip install -r requirements.txt --proxy https://proxy.hca.siemens.com:8080
 fi
+
+echo "---> Installing pipppppppppppppppppppppppp1111111111111111 ..."
 
 if [[ -f setup.py ]]; then
   echo "---> Installing application ..."
